@@ -1,3 +1,5 @@
+#!/bin/sh
+
 mkdir ~/.ssh
 echo $SSH_PUB > ~/.ssh/id_rsa.pub
 echo $SSH_KEY | base64 -d > ~/.ssh/id_rsa
